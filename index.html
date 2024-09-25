@@ -9,6 +9,7 @@
       rel="SHORTCUT ICON"
       href="C:\Users\PC2\Pictures/heart-icon_34407.ico"
     />
+    <script src="script.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css?family=Muli");
 
@@ -188,7 +189,9 @@
         -webkit-border-radius: 15px 60px 0 15px;
         -moz-border-radius: 15px 60px 0 15px;
         border-radius: 15px 60px 0 15px;
-        animation: run 3s infinite ease;
+      }
+      .clickAction {
+        animation: run 2s infinite ease;
       }
 
       @keyframes run {
@@ -2310,7 +2313,7 @@
       >
         
       </h1>
-      <div class="vehicle-body">
+      <div onclick="clickAction()" class="vehicle-body">
         <div class="wrap-body">
           <div class="rooftop back"></div>
           <div class="rooftop front"></div>
