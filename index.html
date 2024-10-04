@@ -185,13 +185,17 @@
         right: 20%;
         bottom: 33px;
         z-index: 9;
-
+      }
+      .clickAction {
         -webkit-border-radius: 15px 60px 0 15px;
         -moz-border-radius: 15px 60px 0 15px;
         border-radius: 15px 60px 0 15px;
-      }
-      .clickAction {
-        animation: run 2s infinite ease;
+        animation-name: run;
+        animation-delay: 0s;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        animation-timing-function: ease-out;
       }
 
       @keyframes run {
@@ -2311,7 +2315,7 @@
           color: indianred;
         "
       >
-        
+        KEN 💗 NI
       </h1>
       <div onclick="clickAction()" class="vehicle-body">
         <div class="wrap-body">
